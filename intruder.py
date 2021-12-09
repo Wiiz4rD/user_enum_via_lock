@@ -7,7 +7,7 @@ import requests
 
 # Change 'target_url' var to 'https://something.web-security-academy.net/login'
 
-target_url = "https://acbb1f181ecd9c34c02e18fb00f60092.web-security-academy.net/login"
+target_url = "CHANGE THIS!!!"
 username = []
 passwords = []
 login = ""
@@ -53,5 +53,5 @@ for line in passwords:
         passwd = line
         print("[*] Found password: " + passwd)
         break
-        
+
 print("[*] Wait 60 sec and try this credentials " + login + ":" + passwd)
